@@ -1,0 +1,28 @@
+Current Completed Features:-
+  - inbuilt Command Proccesor. 
+  - non-responsive Terminal design smillar to MacOS's one (fixed design).
+  - 40% completed 8 useful Commands.
+  - inbuilt fully handled ingoing/outgoing Messages System.
+  - Full Handled Commands History.
+  - Full Handled Output system...
+  
+
+To-Do-List:-
+  - Add Multi-Devices Handler on the stylesheets using the Media Queries (responsive for most of the devices - https://css-tricks.com/snippets/css/media-queries-for-standard-devices/).
+  - Design a cool Background for the main terminal instead of that Ubuntu-for-desktop BG (Cancelled)
+  - Complete those missing Commands...
+  - fix That Ping comamnd's ActiveXObject lib's Browsers compitablity issue by using PHP's DNS Lookup Funcions (gethostbyname - https://php.net/manual/en/function.gethostbyname.php).
+  - Add Output Colorful Functions (completed)
+  - solve that Colorful Output's HTML Function Insert problem... (completed)
+  - Fix Comamnds List CMD's undefined && last ',' issues (completed)
+  - search for another GeoIP Provider...
+  - Add user group/password system...
+  - save the `JQuery is missing...` error once lose it into the logs and exit using `window.history.back()`.  
+  
+Current Completed Keyboard Shortcuts:-
+  - UP/Down to switch between the history items.
+  - Enter inserts an Command into the Terminal's queue.
+  - ESC/Escape Closes the Page.
+  - CTRL + L Clears the Command History.
+  
+Current Completed Comamnds: `clear,clock,dati,ping,uname,whoami,cmd,help`
