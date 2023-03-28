@@ -1,4 +1,4 @@
-window.onload = function()
+﻿window.onload = function()
 {
     if (!window.jQuery)
     {
@@ -616,12 +616,12 @@ var Terminal = Terminal || function(configuration) {
       else if(options.welcome === "auto")
       {
 		 SendMessage(COLORS_.white, "14px", "center", 'Copyright BrownTurbo Gaming - Command Terminal™ © 2015-2017 All Rights Reserved.</p>');
-	  }	  
+	  }
       if(options.enclock === true)
 	  {
 		 document.querySelector(options.clockContainer).style.display = "block";
 		 document.querySelector('.options').style.marginTop = "-20px";
-	  }	
+	  }
       else if(options.enclock === false)
       {
 		 document.querySelector(options.clockContainer).style.display = "none";
